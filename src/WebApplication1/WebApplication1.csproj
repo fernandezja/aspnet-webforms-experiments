@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Gridview\Gridview_AutoGenerateColumns.aspx" />
+    <Content Include="Gridview\Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -171,6 +172,7 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Code\ListToDataTableExtensions.cs" />
+    <Compile Include="Code\StarwarsGridViewColumnsGenerator.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -194,6 +196,13 @@
     </Compile>
     <Compile Include="Gridview\Gridview_AutoGenerateColumns.aspx.designer.cs">
       <DependentUpon>Gridview_AutoGenerateColumns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gridview\Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx.cs">
+      <DependentUpon>Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gridview\Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx.designer.cs">
+      <DependentUpon>Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

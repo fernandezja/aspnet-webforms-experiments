@@ -39,7 +39,6 @@ namespace WebApplication1.Gridview
                 GridView2.DataSource = jedisDataTable;
                 GridView2.DataBind();
 
-
                 //Option 3: 
                 //-----------------------------------------------------------------------
                 GridView3.DataSource = jediBusiness.List();
