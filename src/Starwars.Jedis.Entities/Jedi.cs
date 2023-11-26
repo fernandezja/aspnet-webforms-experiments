@@ -9,6 +9,8 @@ namespace Starwars.Jedis.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public double Power { get; set; }
+        public bool IsEnabled { get; set; }
+
         public string PowerFormatted { 
             get 
             {

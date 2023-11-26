@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Gridview\Gridview_AutoGenerateColumns.aspx" />
+    <Content Include="Gridview\Gridview_Checkboxes.aspx" />
     <Content Include="Gridview\Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx" />
     <Content Include="Gridview\Gridview_SelectRow.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -197,6 +198,13 @@
     </Compile>
     <Compile Include="Gridview\Gridview_AutoGenerateColumns.aspx.designer.cs">
       <DependentUpon>Gridview_AutoGenerateColumns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gridview\Gridview_Checkboxes.aspx.cs">
+      <DependentUpon>Gridview_Checkboxes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gridview\Gridview_Checkboxes.aspx.designer.cs">
+      <DependentUpon>Gridview_Checkboxes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gridview\Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx.cs">
       <DependentUpon>Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx</DependentUpon>
