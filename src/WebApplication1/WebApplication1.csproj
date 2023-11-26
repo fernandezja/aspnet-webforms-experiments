@@ -127,6 +127,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Gridview\Gridview_AutoGenerateColumns.aspx" />
     <Content Include="Gridview\Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx" />
+    <Content Include="Gridview\Gridview_SelectRow.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -203,6 +204,13 @@
     </Compile>
     <Compile Include="Gridview\Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx.designer.cs">
       <DependentUpon>Gridview_ColumnsGenerator_IAutoFieldGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gridview\Gridview_SelectRow.aspx.cs">
+      <DependentUpon>Gridview_SelectRow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gridview\Gridview_SelectRow.aspx.designer.cs">
+      <DependentUpon>Gridview_SelectRow.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

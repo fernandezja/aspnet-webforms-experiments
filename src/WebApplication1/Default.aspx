@@ -13,6 +13,7 @@
             <h2>Gridview</h2>
             <ul>
                 <li><a href="Gridview/Gridview_AutoGenerateColumns.aspx">Gridview (with AutoGenerateColumns)</a></li>
+                <li><a href="Gridview/Gridview_SelectRow.aspx">Gridview (SelectRow)</a></li>
             </ul>
         </div>
         
