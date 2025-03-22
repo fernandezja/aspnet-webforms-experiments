@@ -21,5 +21,22 @@ namespace WebApplication1.Gridview
 
             }
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selectedIndex = GridView1.SelectedIndex;
+
+            // Get the DataKey value (primary key) of the selected row
+            string selectedID = GridView1.DataKeys[selectedIndex].Value.ToString();
+
+
+            // Access selected row cells by index
+            string value1 = GridView1.SelectedRow.Cells[1].Text; // First visible column (after select button)
+            string value2 = GridView1.SelectedRow.Cells[2].Text; // Second visible column
+
+            //Set labels value
+            Index.Text = selectedIndex.ToString();
+            JediId.Text = selectedID;
+        }
     }
 }
