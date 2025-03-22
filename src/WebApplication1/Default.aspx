@@ -14,6 +14,8 @@
             <ul>
                 <li><a href="Gridview/Gridview_AutoGenerateColumns.aspx">Gridview (with AutoGenerateColumns)</a></li>
                 <li><a href="Gridview/Gridview_SelectRow.aspx">Gridview (SelectRow)</a></li>
+                <li><a href="Gridview/Gridview_Checkboxes.aspx">Gridview (Checkboxes)</a></li>
+                <li><a href="Gridview/Gridview_ColumnsGenerator_IAutoFieldGenerator">Gridview (with ColumnsGenerator/IAutoFieldGenerator)</a></li>
             </ul>
         </div>
         
